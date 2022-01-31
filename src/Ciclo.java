@@ -10,5 +10,4 @@ public class Ciclo {
 		this.duracionHoras=horas;
 	}
 	
-
 }
