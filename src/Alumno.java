@@ -6,7 +6,9 @@ public class Alumno {
     private String nombre;
     private Date fecha;
     private Ciclo ciclo;
-    private Notas nota;
+
+
+	private Notas nota;
     
     public Alumno(String dni, String nom, Date fecha, Ciclo c, Notas n) {
         this.DNI=dni;
@@ -21,6 +23,12 @@ public class Alumno {
         		this.fecha+",  Ciclo: "+this.ciclo+",  Nota: "+this.nota);
     }
     
-    
+        public Ciclo getCiclo() {
+		return ciclo;
+	}
+
+	public void setCiclo(Ciclo ciclo) {
+		this.ciclo = ciclo;
+	}
     
 }
