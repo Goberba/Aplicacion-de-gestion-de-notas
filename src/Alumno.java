@@ -11,9 +11,7 @@ public class Alumno {
         this.nombre=nom;
         this.fecha=fecha;
     }
-    public Alumno getAlumno() {
-        
-    }
+    
     public void meterAlumno() {
         
     }
@@ -21,7 +19,7 @@ public class Alumno {
         
     }
     public String toString() {
-        
+        return this.DNI;
     }
     
     
