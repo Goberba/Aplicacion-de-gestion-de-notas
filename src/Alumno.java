@@ -5,21 +5,20 @@ public class Alumno {
     private String DNI;
     private String nombre;
     private Date fecha;
+    private Ciclo ciclo;
+    private Notas nota;
     
-    public Alumno(String dni, String nom, Date fecha) {
+    public Alumno(String dni, String nom, Date fecha, Ciclo c, Notas n) {
         this.DNI=dni;
         this.nombre=nom;
         this.fecha=fecha;
+        this.ciclo=c;
+        this.nota=n; 
     }
     
-    public void meterAlumno() {
-        
-    }
-    public void borrarAlumno() {
-        
-    }
     public String toString() {
-        return this.DNI;
+        return ("DNI: "+this.DNI+",  Nombre: "+this.nombre+",  Fecha de nacimiento: "+
+        		this.fecha+",  Ciclo: "+this.ciclo+",  Nota: "+this.nota);
     }
     
     
