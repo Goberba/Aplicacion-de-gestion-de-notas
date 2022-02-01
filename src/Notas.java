@@ -12,5 +12,6 @@ public class Notas {
 		this.nota=n;
 	}
 	
+	
 
 }

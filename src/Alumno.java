@@ -13,11 +13,11 @@ public class Alumno {
         this.nombre=nom;
         this.fecha=fecha;
         this.ciclo=c;
-        this.nota=n;
+        this.nota=n; 
     }
     
     public String toString() {
-        return ("  DNI: "+this.DNI+",  Nombre: "+this.nombre+",  Fecha de nacimiento: "+
+        return ("DNI: "+this.DNI+",  Nombre: "+this.nombre+",  Fecha de nacimiento: "+
         		this.fecha+",  Ciclo: "+this.ciclo+",  Nota: "+this.nota);
     }
     
