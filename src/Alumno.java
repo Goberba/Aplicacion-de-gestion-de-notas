@@ -6,11 +6,9 @@ public class Alumno {
     private String nombre;
     private Date fecha;
     private Ciclo ciclo;
-
-
-	private Notas nota;
+    private Nota[] nota;
     
-    public Alumno(String dni, String nom, Date fecha, Ciclo c, Notas n) {
+    public Alumno(String dni, String nom, Date fecha, Ciclo c, Nota[] n) {
         this.DNI=dni;
         this.nombre=nom;
         this.fecha=fecha;
