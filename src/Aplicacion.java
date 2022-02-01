@@ -8,7 +8,6 @@ public class Aplicacion {
 	
 	public void meterNotas(Alumno a) {
 		
-		
 	}
 
 }
