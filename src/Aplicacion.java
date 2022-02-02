@@ -2,6 +2,7 @@
 public class Aplicacion {
 
 	public static void main(String[] args) {
+		boolean salir=false;
 		do{
 			
            System.out.println("1. Opcion 1");
@@ -21,13 +22,13 @@ public class Aplicacion {
 	                   System.out.println("Has seleccionado la opcion 3");
 	                   break;
 	                case 4:
-	                   boolean salir=true;
+	                   salir=true;
 	                   break;
 	                default:
 	                   System.out.println("Solo números entre 1 y 4");
 	           }
 	       }
-	      while(!salir);
+	      while(salir==false);
 	    }
 	
 	public void meterAlumno(Alumno a) {
