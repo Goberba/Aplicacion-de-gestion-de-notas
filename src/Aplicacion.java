@@ -17,7 +17,7 @@ public class Aplicacion {
 			
            System.out.println("1. Ver nota de cada alumno");
            System.out.println("2. Ver notas por modulos");
-           System.out.println("3. Opcion 3");
+           System.out.println("3. Cambiar notas de los alumnos");
            System.out.println("4. Salir");
            System.out.println("Escribe una de las opciones");
            int opcion = Console.readInt();

@@ -1,6 +1,4 @@
 
-import java.util.Date;
-
 public class Alumno {
     private String DNI;
     private String nombre;
@@ -30,7 +28,7 @@ public class Alumno {
 	}
 
 	public void verNotayAlumno() {
-		System.out.println("El alumno "+this.nombre+", tiene como nota "+nota.getNota()+".");
+		System.out.println("El alumno "+this.nombre+" con el DNI "+this.DNI+", tiene como nota "+nota.getNota()+".");
 	}
 
 	public void setNota(Nota nota) {
@@ -42,7 +40,7 @@ public class Alumno {
 	}
 	public void cambiarNota(double cambioNota) {
 		this.nota.setNota(cambioNota);
-		System.out.println("Ahora la nota del alumno "+this.nombre+" es "+this.nota.getNota());
+		System.out.println("Ahora la nota del alumno "+this.nombre+" con el DNI "+this.DNI+" es "+this.nota.getNota());
 	}
     
 }
