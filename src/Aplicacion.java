@@ -69,19 +69,5 @@ public class Aplicacion {
 	       }
 	      while(salir==false);
 	    }
-	
-	public void meterAlumno(Alumno a) {
-		Alumno[] alumnos=new Alumno[a.getCiclo().getTamCiclo()];
-		for(int i=0;i<alumnos.length;i++) {
-			if(alumnos[i]==null) {
-				alumnos[i]=a;
-			}
-		}
-		
-	}
-	
-	public void meterNotas() {
-		
-	}
 
 }
