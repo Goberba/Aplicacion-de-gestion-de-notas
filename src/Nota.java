@@ -12,8 +12,5 @@ public class Nota {
 	public String toString() {
 		return "Nota "+this.nota+" de la evaluación "+this.evaluacion+" en el módulo "+this.modulo;
 	}
-	public Nota getNota() {
-		
-	}
 
 }

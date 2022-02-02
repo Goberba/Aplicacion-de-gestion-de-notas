@@ -8,11 +8,12 @@ public class Alumno {
     private Ciclo ciclo;
     private Nota nota;
     
-    public Alumno(String dni, String nom, String fecha, Ciclo c) {
+    public Alumno(String dni, String nom, String fecha, Ciclo c, Nota n) {
         this.DNI=dni;
         this.nombre=nom;
         this.fecha=fecha;
         this.ciclo=c;
+        this.nota=n;
     }
     
     public String toString() {
@@ -26,6 +27,14 @@ public class Alumno {
 
 	public void setCiclo(Ciclo ciclo) {
 		this.ciclo = ciclo;
+	}
+
+	public Nota getNota() {
+		return nota;
+	}
+
+	public void setNota(Nota nota) {
+		this.nota = nota;
 	}
     
 }
