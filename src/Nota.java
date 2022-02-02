@@ -12,5 +12,19 @@ public class Nota {
 	public String toString() {
 		return "Nota "+this.nota+" de la evaluación "+this.evaluacion+" en el módulo "+this.modulo;
 	}
+	public String getModulo() {
+		return modulo;
+	}
+	public void setModulo(String modulo) {
+		this.modulo = modulo;
+	}
+	public double getNota() {
+		return nota;
+	}
+	public void setNota(double nota) {
+		this.nota = nota;
+	}
+	
+	
 
 }

@@ -8,8 +8,8 @@ public class Aplicacion {
 		Alumno a1=new Alumno("81273992P", "Pedro", "24/01/1998", c1,n1);
 		do{
 			
-           System.out.println("1. Ver nota del alumno");
-           System.out.println("2. Opcion 2");
+           System.out.println("1. Ver nota de cada alumno");
+           System.out.println("2. Ver notas por modulos");
            System.out.println("3. Opcion 3");
            System.out.println("4. Salir");
            System.out.println("Escribe una de las opciones");
@@ -18,9 +18,12 @@ public class Aplicacion {
 	               case 1:
 	                   System.out.println("Has seleccionado la opcion 1");
 	                   System.out.println(a1.getNota());
+	                   System.out.println();
 	                   break;
 	               case 2:
 	                   System.out.println("Has seleccionado la opcion 2");
+	                   a1.verNotayModulo();
+	                   System.out.println();
 	                   break;
 	                case 3:
 	                   System.out.println("Has seleccionado la opcion 3");

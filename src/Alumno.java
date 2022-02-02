@@ -21,7 +21,7 @@ public class Alumno {
         		this.fecha+",  Ciclo: "+this.ciclo+", "+this.nota.toString());
     }
     
-        public Ciclo getCiclo() {
+    public Ciclo getCiclo() {
 		return ciclo;
 	}
 
@@ -35,6 +35,10 @@ public class Alumno {
 
 	public void setNota(Nota nota) {
 		this.nota = nota;
+	}
+	
+	public void verNotayModulo() {
+		System.out.println("Modulo: "+this.nota.getModulo()+". Con la nota: "+this.nota.getNota());
 	}
     
 }
