@@ -29,8 +29,8 @@ public class Alumno {
 		this.ciclo = ciclo;
 	}
 
-	public Nota getNota() {
-		return nota;
+	public void verNotayAlumno() {
+		System.out.println("El alumno "+this.nombre+", tiene como nota "+nota.getNota()+".");
 	}
 
 	public void setNota(Nota nota) {
@@ -39,6 +39,10 @@ public class Alumno {
 	
 	public void verNotayModulo() {
 		System.out.println("Modulo: "+this.nota.getModulo()+". Con la nota: "+this.nota.getNota());
+	}
+	public void cambiarNota(double cambioNota) {
+		this.nota.setNota(cambioNota);
+		System.out.println("Ahora la nota del alumno "+this.nombre+" es "+this.nota.getNota());
 	}
     
 }
